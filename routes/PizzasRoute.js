@@ -11,4 +11,4 @@ router.get('/getallpizzas', async (req, res) => {
     return res.status(400).json({ message: error })
   }
 })
-module.exports = router 
+module.exports = router ;
